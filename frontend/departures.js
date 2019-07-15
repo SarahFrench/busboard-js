@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", busBoard)
+
+function busBoard(){
+  let postcode = document.getElementsByName('postcode')[0].value
+}
+
+function makeRequest(){
+  //TODO look up fetch and make request to /departureBoards
+}
+
+
 function updateHtmlWithError(response) {
     document.getElementById('results').innerHTML = `<h2>Error</h2>${response}`
 }
